@@ -16,19 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Fge-Wp-4hK">
-                                <rect key="frame" x="137" y="113" width="140" height="480"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Fge-Wp-4hK">
+                                <rect key="frame" x="137" y="113" width="140" height="460"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m5R-Jy-BEc">
+                                    <view alpha="0.55000000000000004" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m5R-Jy-BEc">
                                         <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WPb-p9-T5u">
-                                        <rect key="frame" x="0.0" y="170" width="140" height="140"/>
+                                    <view alpha="0.5" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WPb-p9-T5u">
+                                        <rect key="frame" x="0.0" y="160" width="140" height="140"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Edk-PK-NAu">
-                                        <rect key="frame" x="0.0" y="340" width="140" height="140"/>
+                                    <view alpha="0.5" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Edk-PK-NAu">
+                                        <rect key="frame" x="0.0" y="320" width="140" height="140"/>
                                         <color key="backgroundColor" red="0.071626673055837503" green="0.86078917980194092" blue="0.072519347725740382" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
                                 </subviews>
