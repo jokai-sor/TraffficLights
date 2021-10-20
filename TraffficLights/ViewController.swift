@@ -17,18 +17,26 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        redRectangle.isHidden = false
-        yellowRectangle.isHidden = false
-        greenRectangle.isHidden = false
-        redRectangle.layer.cornerRadius = 50
-        yellowRectangle.layer.cornerRadius = 50
-        greenRectangle.layer.cornerRadius = 50
-        startButton.layer.cornerRadius = 10
+        redRectangle.layer.cornerRadius = 65
+        yellowRectangle.layer.cornerRadius = 65
+        greenRectangle.layer.cornerRadius = 65
+        startButton.layer.cornerRadius = 20
+        
+        redRectangle.alpha = 0.3
+        yellowRectangle.alpha = 0.3
+        greenRectangle.alpha = 0.3
+
     }
     
-    @IBAction func pressButton(_ sender: Any) {
+    
+    @IBAction func startButtonPress() {
+//        redRectangle.alpha = 1
+//        yellowRectangle.alpha = 1
+//        greenRectangle.alpha = 1
         
+//        startButton.setTitle("Next", for: .normal)
     }
+    
     
     
 }
