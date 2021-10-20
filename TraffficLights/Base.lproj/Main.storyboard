@@ -27,28 +27,42 @@
                                     <action selector="startButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ShM-V4-rRN"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m5R-Jy-BEc">
-                                <rect key="frame" x="141.83783783783269" y="66" width="128" height="127.99999999999997"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m5R-Jy-BEc">
+                                <rect key="frame" x="143" y="67" width="128" height="128"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WPb-p9-T5u">
-                                <rect key="frame" x="141.83783783783269" y="202" width="128" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WPb-p9-T5u">
+                                <rect key="frame" x="143" y="213" width="128" height="128"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Edk-PK-NAu">
-                                <rect key="frame" x="141.83783783783269" y="338" width="128" height="127.99999999999991"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Edk-PK-NAu">
+                                <rect key="frame" x="143" y="358" width="128" height="128"/>
                                 <color key="backgroundColor" red="0.071626673055837503" green="0.86078917980194092" blue="0.072519347725740382" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="m5R-Jy-BEc" secondAttribute="bottom" constant="701" id="0Th-zr-lVn"/>
+                            <constraint firstItem="Edk-PK-NAu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="358" id="8Yu-NT-42L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m5R-Jy-BEc" secondAttribute="trailing" constant="143" id="HWd-nd-G4O"/>
+                            <constraint firstItem="WPb-p9-T5u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LtV-TK-XDZ"/>
                             <constraint firstItem="N1x-V0-If2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QTH-rg-XDh"/>
+                            <constraint firstItem="WPb-p9-T5u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="SWY-Eq-RVJ"/>
+                            <constraint firstItem="Edk-PK-NAu" firstAttribute="top" secondItem="WPb-p9-T5u" secondAttribute="bottom" constant="17" id="V5n-y9-dEX"/>
+                            <constraint firstItem="Edk-PK-NAu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="amr-sV-1nB"/>
+                            <constraint firstItem="m5R-Jy-BEc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b1L-GZ-6wI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="N1x-V0-If2" secondAttribute="bottom" constant="17" id="b5H-kT-rBE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WPb-p9-T5u" secondAttribute="trailing" constant="143" id="bcd-ZI-Z9W"/>
                             <constraint firstItem="N1x-V0-If2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="dZy-Hg-fgk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Edk-PK-NAu" secondAttribute="trailing" constant="143" id="fyx-UC-hks"/>
+                            <constraint firstItem="m5R-Jy-BEc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="23" id="jt8-hI-Vvo"/>
+                            <constraint firstItem="WPb-p9-T5u" firstAttribute="top" secondItem="m5R-Jy-BEc" secondAttribute="bottom" constant="18" id="kFh-FW-gwU"/>
+                            <constraint firstItem="Edk-PK-NAu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="lX1-bQ-Kly"/>
+                            <constraint firstItem="Edk-PK-NAu" firstAttribute="trailing" secondItem="WPb-p9-T5u" secondAttribute="trailing" id="mod-1Q-DT4"/>
+                            <constraint firstItem="m5R-Jy-BEc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="nID-EV-Vmb"/>
+                            <constraint firstAttribute="bottom" secondItem="Edk-PK-NAu" secondAttribute="bottom" constant="410" id="qiC-Me-T2r"/>
+                            <constraint firstItem="WPb-p9-T5u" firstAttribute="trailing" secondItem="m5R-Jy-BEc" secondAttribute="trailing" id="vWQ-yl-aTN"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
