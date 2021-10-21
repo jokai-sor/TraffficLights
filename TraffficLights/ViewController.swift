@@ -17,25 +17,36 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        redRectangle.layer.cornerRadius = 65
-        yellowRectangle.layer.cornerRadius = 65
-        greenRectangle.layer.cornerRadius = 65
-        startButton.layer.cornerRadius = 20
-        
         redRectangle.alpha = 0.3
         yellowRectangle.alpha = 0.3
         greenRectangle.alpha = 0.3
+        
+        startButton.layer.cornerRadius = 20
+        
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        redRectangle.layer.cornerRadius = redRectangle.frame.size.height / 2
+        yellowRectangle.layer.cornerRadius = yellowRectangle.frame.size.height / 2
+        greenRectangle.layer.cornerRadius =  greenRectangle.frame.size.height / 2
 
     }
     
+//    @IBAction func startButtonPress() {
+//    }
     var switcher = 1
     
-    @IBAction func startButtonPress() {
+    @IBAction func startButtonPress(_ sender: Any) {
         if switcher <= 3 {
             redRectangle.alpha = 0.3
             yellowRectangle.alpha = 0.3
             greenRectangle.alpha = 0.3
+            
+            let font = startButton.titleLabel?.font
             startButton.setTitle("Next", for: .normal)
+            startButton.titleLabel?.font = font
+            
             if switcher == 1 {
                 redRectangle.alpha = 1
                 switcher += 1
