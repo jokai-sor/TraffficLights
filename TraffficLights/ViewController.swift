@@ -32,20 +32,17 @@ class ViewController: UIViewController {
     
     @IBAction func startButtonPress() {
         if switcher <= 3 {
+            redRectangle.alpha = 0.3
+            yellowRectangle.alpha = 0.3
+            greenRectangle.alpha = 0.3
             startButton.setTitle("Next", for: .normal)
             if switcher == 1 {
                 redRectangle.alpha = 1
-                yellowRectangle.alpha = 0.3
-                greenRectangle.alpha = 0.3
                 switcher += 1
             } else if switcher == 2 {
-                yellowRectangle.alpha = 0.3
                 yellowRectangle.alpha = 1
-                greenRectangle.alpha = 0.3
                 switcher += 1
             } else {
-                redRectangle.alpha = 0.3
-                yellowRectangle.alpha = 0.3
                 greenRectangle.alpha = 1
                 switcher = 1
             }
